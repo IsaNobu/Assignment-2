@@ -131,7 +131,19 @@
 
   .selector-option {
     flex-direction: column;
-    margin-left: 22.7%;
+    margin-left: 13%;
     margin-top: 16px;
+    width: 270px;
+    height: 270px;
+  }
+
+  .input {
+    width: 255px;
+    height: 52px;
+  }
+
+  .btn-1 {
+    width: 255px;
+    height: 52px;
   }
 }
