@@ -7,7 +7,7 @@
 
   .nav {
     margin-top: 20px;
-    background-image: url(Images/bars-solid.svg);
+    background-image: url(/Images/bars-solid.svg);
     background-repeat: no-repeat;
     background-position: 90%;
     background-size: 26px;
@@ -141,5 +141,16 @@
 
   .txt-8 {
     width: 290px;
+  }
+
+  /* unique section */
+
+  .card-img {
+    width: 330px;
+  }
+
+  .card-img img {
+    width: 45%;
+    height: 280px;
   }
 }

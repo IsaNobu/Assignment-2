@@ -272,3 +272,33 @@ hr {
   padding-top: 30px;
   margin-bottom: -10px;
 }
+
+/* unique section styles */
+
+.txt-9 {
+  text-align: center;
+}
+
+.card-img img {
+  width: 23%;
+  border-radius: 20px;
+  border: 2px solid rgb(243, 238, 238);
+}
+
+.card-img {
+  margin: 0 auto;
+  border-radius: 40px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+  border: #ff5400 solid 1px;
+  width: 1400px;
+  padding: 100px;
+  background-color: rgb(246, 241, 241);
+}
+
+.img-4 {
+  margin-top: 80px;
+}
