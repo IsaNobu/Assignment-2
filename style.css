@@ -2,6 +2,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+.body {
+  margin: 0;
+}
+
 .inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -10,8 +14,12 @@
   font-variation-settings: "silent" 0;
 }
 
-.orange-color {
-  color: #ff5400;
+.orange-BgColor {
+  background-color: #ff5400;
+}
+
+.twentyFourPx {
+  margin-top: 24px;
 }
 
 /* Nav Section */
@@ -50,25 +58,26 @@
   top: -460px;
   text-align: center;
   color: white;
-  display: flex;
-  flex-direction: column;
 }
 
 .txt-1 {
   font-size: 4em;
 }
 
+.txt-2 {
+  margin-bottom: 50px;
+}
+
 .selector-option {
-  margin-top: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   gap: 16px;
   width: 50%;
-  margin-left: 25%;
   padding: 16px;
   border-radius: 8px;
+  margin: 0 auto;
 }
 
 .input {
@@ -80,12 +89,59 @@
 
 .btn-1 {
   border: none;
-  background: #ff5400;
   color: white;
+  background-color: #ff5400;
   width: 174px;
   height: 52px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+/* plan section */
+
+.popular-plans-section {
+  display: flex;
+  justify-content: center;
+  gap: 53px;
+}
+
+.txt-area-2 {
+  color: rgba(19, 19, 24, 0.7);
+}
+
+.txt-3 {
+  font-size: 40px;
+}
+
+.txt-4 {
+  width: 600px;
+}
+
+.txt-5 {
+  width: 400px;
+}
+
+.txt-5 li {
+  margin-top: 16px;
+}
+
+.txt-6 {
+  width: 550px;
+}
+
+.btn-2 {
+  background: #ff5400;
+  border: none;
+  color: white;
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
 }
 
 /* Responsive */
@@ -113,12 +169,8 @@
   /* Banner */
 
   .banner-img {
-    width: 335px;
+    width: 20.9375em;
     height: 483px;
-  }
-
-  .txt-area-1 {
-    /* align-items: ce; */
   }
 
   .txt-1 {
@@ -131,7 +183,7 @@
 
   .selector-option {
     flex-direction: column;
-    margin-left: 13%;
+    justify-content: center;
     margin-top: 16px;
     width: 270px;
     height: 270px;
@@ -145,5 +197,28 @@
   .btn-1 {
     width: 255px;
     height: 52px;
+  }
+
+  /* plan Section */
+
+  .img-1 {
+    width: auto;
+    width: 100%;
+  }
+
+  .popular-plans-section {
+    flex-direction: column;
+  }
+
+  .txt-4 {
+    width: 95%;
+  }
+
+  .txt-5 {
+    width: 91%;
+  }
+
+  .txt-6 {
+    width: 95%;
   }
 }
